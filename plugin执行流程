@@ -1,15 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T06:57:57.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36" etag="M2KlqA--EbeM5qstq6_U" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-02T06:59:21.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36" etag="VsSliwpT8oL6lU8CwSdc" version="20.1.4" type="github">
   <diagram id="mGobb4W0PBZfyWph17Yz" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LxoOcBMjMMA6VEF3cSJ1-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LxoOcBMjMMA6VEF3cSJ1-2" target="LxoOcBMjMMA6VEF3cSJ1-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LxoOcBMjMMA6VEF3cSJ1-2" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="385" y="130" width="80" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="LxoOcBMjMMA6VEF3cSJ1-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LxoOcBMjMMA6VEF3cSJ1-3" target="LxoOcBMjMMA6VEF3cSJ1-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -20,10 +14,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LxoOcBMjMMA6VEF3cSJ1-5" value="下载Plugin执行jar" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="344" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="331" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LxoOcBMjMMA6VEF3cSJ1-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LxoOcBMjMMA6VEF3cSJ1-15" target="LxoOcBMjMMA6VEF3cSJ1-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LxoOcBMjMMA6VEF3cSJ1-15" value="java -jar main.class args" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="338" y="484" width="175" height="46" as="geometry" />
+          <mxGeometry x="338" y="422" width="175" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="LxoOcBMjMMA6VEF3cSJ1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LxoOcBMjMMA6VEF3cSJ1-21" target="LxoOcBMjMMA6VEF3cSJ1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LxoOcBMjMMA6VEF3cSJ1-21" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="146" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LxoOcBMjMMA6VEF3cSJ1-24" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="496" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
