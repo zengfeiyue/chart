@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T02:29:44.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36" etag="XR9NseW8HrMdRdw7-Kp-" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-02T02:36:09.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36" etag="AIMslz6Di00l9xqJh85t" version="20.1.4" type="github">
   <diagram id="ko5bdHtLuCnaxp8RU-96" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -84,7 +84,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uvQrj5neUVMHr-5vTQ80-37" value="负载均衡算法" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;exitX=0.9;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.96;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="uvQrj5neUVMHr-5vTQ80-3" source="uvQrj5neUVMHr-5vTQ80-34" target="uvQrj5neUVMHr-5vTQ80-34">
+        <mxCell id="uvQrj5neUVMHr-5vTQ80-37" value="更新负载因子" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;exitX=0.9;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.96;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="uvQrj5neUVMHr-5vTQ80-3" source="uvQrj5neUVMHr-5vTQ80-34" target="uvQrj5neUVMHr-5vTQ80-34">
           <mxGeometry x="-0.0562" y="10" width="80" relative="1" as="geometry">
             <mxPoint x="150" y="470" as="sourcePoint" />
             <mxPoint x="230" y="470" as="targetPoint" />
@@ -135,7 +135,7 @@
             <mxPoint x="100" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uvQrj5neUVMHr-5vTQ80-27" value="调度plugin" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;entryX=0.1;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uvQrj5neUVMHr-5vTQ80-13" target="uvQrj5neUVMHr-5vTQ80-29">
+        <mxCell id="uvQrj5neUVMHr-5vTQ80-27" value="负载均衡算法调度plugin" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;entryX=0.1;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uvQrj5neUVMHr-5vTQ80-13" target="uvQrj5neUVMHr-5vTQ80-29">
           <mxGeometry x="-0.05" y="12" width="80" relative="1" as="geometry">
             <mxPoint x="570" y="600" as="sourcePoint" />
             <mxPoint x="650" y="600" as="targetPoint" />
