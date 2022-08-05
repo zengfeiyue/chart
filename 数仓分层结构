@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T00:45:23.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36" version="20.2.2" etag="RXS8KOc1JxBlTQQBy8sn" type="github"><diagram id="gGancY5Gp1DJaU3VoWh_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-05T01:51:45.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36" etag="V8YqLVZdO_ohJhzRarAk" version="20.2.2" type="github">
+  <diagram id="gGancY5Gp1DJaU3VoWh_" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MyNYa06gTn0ItlQ7mGSC-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MyNYa06gTn0ItlQ7mGSC-2" value="ODS数据层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="81" y="454" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MyNYa06gTn0ItlQ7mGSC-3" value="DWD数据层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="81" y="389" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MyNYa06gTn0ItlQ7mGSC-5" value="DIM维度层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="326" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MyNYa06gTn0ItlQ7mGSC-6" value="DWS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="81" y="326" width="149" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MyNYa06gTn0ItlQ7mGSC-7" value="ADS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="81" y="260" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MyNYa06gTn0ItlQ7mGSC-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="500" as="sourcePoint" />
+            <mxPoint x="30" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MyNYa06gTn0ItlQ7mGSC-10" value="数据操作层，对接入的数据不加工保存，俗称：保留数据现场，方便数据溯源" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;horizontal=1;spacingBottom=2;spacingTop=2;fontSize=13;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="450" y="450" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MyNYa06gTn0ItlQ7mGSC-11" value="数据明细层，对ODS层数据，按照标准清洗（脱敏，打平，整合，格式化）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;horizontal=1;spacingBottom=2;spacingTop=2;fontSize=13;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="450" y="389" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MyNYa06gTn0ItlQ7mGSC-12" value="主题宽表（商品日购买，商品月购买，订单日交易，订单月交易），维度表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;horizontal=1;spacingBottom=2;spacingTop=2;fontSize=13;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="450" y="326" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MyNYa06gTn0ItlQ7mGSC-13" value="个性化，定制化，复杂性的指标加工" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;dashed=1;horizontal=1;spacingBottom=2;spacingTop=2;fontSize=13;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="210" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
