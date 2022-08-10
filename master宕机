@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T07:02:14.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36" etag="fy2mInNVFp6DHFOMH-c-" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T07:03:14.005Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36" etag="Z1YZxVgaaDkyx5jlHdjA" version="20.2.3" type="github">
   <diagram id="KRw9w5vSQRQ87TQ5vpXL" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -215,6 +215,11 @@
         </mxCell>
         <mxCell id="IHuPFJIa7OoP_bbh77Wg-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="IHuPFJIa7OoP_bbh77Wg-66" target="IHuPFJIa7OoP_bbh77Wg-41">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IHuPFJIa7OoP_bbh77Wg-70" value="断开流量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IHuPFJIa7OoP_bbh77Wg-64">
+          <mxGeometry x="0.1205" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IHuPFJIa7OoP_bbh77Wg-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHuPFJIa7OoP_bbh77Wg-66" target="IHuPFJIa7OoP_bbh77Wg-42">
           <mxGeometry relative="1" as="geometry" />
