@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T06:44:56.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36" etag="-Ncvba06lHSpRFV4izP-" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T06:46:14.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36" etag="90ESdotvy2bfiukFY6Es" version="20.2.3" type="github">
   <diagram id="dDFDLYvVzZvtv-YhLBK_" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aEdhMc78hBRexqOAayGi-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aEdhMc78hBRexqOAayGi-2" target="aEdhMc78hBRexqOAayGi-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aEdhMc78hBRexqOAayGi-2" value="初始化plugin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aEdhMc78hBRexqOAayGi-2" value="添加plugin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aEdhMc78hBRexqOAayGi-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aEdhMc78hBRexqOAayGi-3" target="aEdhMc78hBRexqOAayGi-5">
