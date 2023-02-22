@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T03:11:02.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="XXc6WYn1CCM9F3XyU0DV" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-22T03:22:20.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="wal1F0hpG8vUbtDVZfB6" version="20.8.22" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="880" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
-          <mxGeometry x="110" y="40" width="1100" height="750" as="geometry" />
+          <mxGeometry x="110" y="40" width="1260" height="750" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-2" value="客户" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry y="20" width="140" height="730" as="geometry" />
@@ -64,8 +64,8 @@
         <mxCell id="Dy6EHot-L7qjvz_FSaC0-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-5" source="Dy6EHot-L7qjvz_FSaC0-33" target="Dy6EHot-L7qjvz_FSaC0-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dy6EHot-L7qjvz_FSaC0-33" value="执行物料计划" style="whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-5">
-          <mxGeometry x="33" y="249" width="77.5" height="40" as="geometry" />
+        <mxCell id="Dy6EHot-L7qjvz_FSaC0-33" value="执行&lt;br&gt;材料需求分析（MRP）" style="whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-5">
+          <mxGeometry x="33" y="240" width="77.5" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Dy6EHot-L7qjvz_FSaC0-36" value="生产计划" style="whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-5">
           <mxGeometry x="32" y="410" width="77.5" height="40" as="geometry" />
@@ -85,8 +85,11 @@
         <mxCell id="Dy6EHot-L7qjvz_FSaC0-40" value="物料采购" style="whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-6">
           <mxGeometry x="40.25" y="328" width="77.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-7" value="工艺部" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-7" value="仓库" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="780" y="20" width="160" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy6EHot-L7qjvz_FSaC0-48" value="入库" style="whiteSpace=wrap;html=1;" vertex="1" parent="77e6c97f196da883-7">
+          <mxGeometry x="30" y="328" width="77.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Dy6EHot-L7qjvz_FSaC0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-1" source="Dy6EHot-L7qjvz_FSaC0-6" target="Dy6EHot-L7qjvz_FSaC0-7">
           <mxGeometry relative="1" as="geometry" />
@@ -110,6 +113,12 @@
           <mxGeometry x="940" y="20" width="160" height="730" as="geometry" />
         </mxCell>
         <mxCell id="Dy6EHot-L7qjvz_FSaC0-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="Dy6EHot-L7qjvz_FSaC0-31" target="Dy6EHot-L7qjvz_FSaC0-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy6EHot-L7qjvz_FSaC0-46" value="装配部" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
+          <mxGeometry x="1100" y="20" width="160" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Dy6EHot-L7qjvz_FSaC0-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="77e6c97f196da883-1" source="Dy6EHot-L7qjvz_FSaC0-40" target="Dy6EHot-L7qjvz_FSaC0-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
